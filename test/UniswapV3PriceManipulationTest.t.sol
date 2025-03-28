@@ -27,7 +27,7 @@ contract UniswapV3PriceManipulationTest is Test {
     IUniswapV3Pool public pool;
 
     // RPC URL for Optimism Mainnet fork
-    string constant ALCHEMY_API_KEY = "FbbPbdaturO9DZOX5Ww57ySEyEq3uCgs";
+    string constant ALCHEMY_API_KEY = "API-KEY";
     string optimismRpcUrl = string(abi.encodePacked("https://opt-mainnet.g.alchemy.com/v2/", ALCHEMY_API_KEY));
 
     uint256 prevSpotPrice;
